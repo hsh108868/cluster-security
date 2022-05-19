@@ -1,5 +1,3 @@
-from unicodedata import name
-from urllib import response
 import boto3
 
 
