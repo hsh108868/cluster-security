@@ -12,7 +12,7 @@ def describe_cluster(cluster_name):
 
 
 def main():
-    test_cluster_name: 'Cluster-Security'
+    test_cluster_name: 'Cluster_Security'
     result = describe_cluster(test_cluster_name)
     if result is None:
         print('Can`t gain about cluster information {}'.format(test_cluster_name))
