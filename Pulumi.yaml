@@ -1,0 +1,6 @@
+name: cluster_security
+description: A project for cluster security inspector using clamAV, clair
+runtime:
+    name: python
+    options:
+        virtualenv: venv
