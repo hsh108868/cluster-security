@@ -4,7 +4,7 @@ import pulumi
 from pulumi_aws import s3
 
 # Create an AWS resource (S3 Bucket)
-bucket = s3.Bucket('pod_list')
+bucket = s3.Bucket('pod-list')
 
 # Export the name of the bucket
-pulumi.export('pod_list', bucket.id)
+pulumi.export('pod-list', bucket.id)
