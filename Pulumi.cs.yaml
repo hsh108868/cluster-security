@@ -1,4 +1,4 @@
 encryptionsalt: v1:zsBHupdXLf4=:v1:gFlUhgp7wV6TezCr:Khaf1lpNkNzphi8d4xOTEtEthYDENQ==
 config:
-  aws:profile: seohee
+  aws:profile: default
   aws:region: ap-northeast-2
