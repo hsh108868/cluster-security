@@ -11,4 +11,4 @@ bucket = s3.Bucket('pod-list')
 # Export the name of the bucket
 pulumi.export('pod-list', bucket.id)
 cluster.create_cluster()
-docker.docker()
+
