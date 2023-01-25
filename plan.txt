@@ -1,0 +1,40 @@
+[클라이언트 라이브러리] 
+
+1. AWS Cloud9 & EKS 환경 세팅
+
+2. Client library Python Code
+
+3. Image 생성 (DockerHub -> AWS ECR)
+
+4. Image 기반 Pod, Deployment 생성
+
+5. Client-library - Pod, Node, Service, Namespace
+
+6. Helm Chart
+
+7. label 설정
+
+8. ArgoCD
+
+* argocd install & setting
+* argocd 로 helm chart 배포
+* rollback 
+
+9. Ingress
+
+[모니터링]
+
+Prometheus + Grafana
+
+[로깅]
+
+Elasticsearch + Kibana + Fluentd
+
+[취약점]
+
+Clair + ClamAV
+
+---
+
+1. CI : Jenkins  / CD: ArgoCD or githubactions?
+
