@@ -1,6 +1,6 @@
 [클라이언트 라이브러리] 
 
-1. AWS Cloud9 & EKS 환경 세팅
+1. AWS Cloud9 & EKS 환경 세팅 -[ 완 ]
 
 2. Client library Python Code
 
