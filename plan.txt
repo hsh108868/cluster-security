@@ -2,25 +2,19 @@
 
 1. AWS Cloud9 & EKS 환경 세팅 -[ 완 ]
 
-2. Client library Python Code
+2. 웹사이트 Image 생성 (DockerHub -> AWS ECR)
 
-3. Image 생성 (DockerHub -> AWS ECR)
+3. 웹사이트 Pod, Deployment 생성
 
-4. Image 기반 Pod, Deployment 생성
+4. Helm Chart
 
-5. Client-library - Pod, Node, Service, Namespace
+5. label 설정
 
-6. Helm Chart
-
-7. label 설정
-
-8. ArgoCD
+6. ArgoCD
 
 * argocd install & setting
 * argocd 로 helm chart 배포
 * rollback 
-
-9. Ingress
 
 [모니터링]
 
@@ -36,5 +30,5 @@ Clair + ClamAV
 
 ---
 
-1. CI : Jenkins  / CD: ArgoCD or githubactions?
+1. CI : Jenkins  / CD: ArgoCD or github actions?
 
